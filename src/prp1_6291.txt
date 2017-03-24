@@ -1,0 +1,13 @@
+NICHOLAS, ADRIEN; CS610; PRP 1; 6291 
+
+LIMITATIONS:
+Limited compression with already compressed pdfs
+http://qpdf.sourceforge.net/ was used to uncompress - compressed pdfs for testing
+
+USAGE:
+Encode : Henc_6291 encodes filename into filename.huf and filename gets erased
+thus x.pdf generates x.pdf.huf and then x.pdf gets erased
+
+Decode : Hdec_6291 decodes filename.huf into filename and filename.huf gets erased
+if filename already exists, it gets overwritten
+thus x.pdf.huf generates x.pdf and then x.pdf.huf gets erased
